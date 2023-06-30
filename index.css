@@ -25,8 +25,7 @@ body {
     color: #000000;
     background-image: url("public/image/woowa_logo.png");
     background-repeat: no-repeat;
-    background-position: left;
-    /* Đưa ảnh lên góc trái */
+    background-position: top left;
     background-size: contain;
 }
 
@@ -40,8 +39,7 @@ body {
     width: 480px;
     padding: 40px;
     margin-left: 500px;
-    /* Đẩy form sang bên phải */
-    /* Thêm thuộc tính position */
+
 }
 
 .login-text {
