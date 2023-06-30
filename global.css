@@ -1,0 +1,30 @@
+/* Reset default margin and padding */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* Fonts */
+    --font-noto-sans: "Noto Sans", sans-serif;
+    /* Font sizes */
+    --font-size-base: 16px;
+    --font-size-xl: 20px;
+    /* Colors */
+    --color-white: #fff;
+    --color-dimgray: #4d4d4d;
+    /* Gaps */
+    --gap-xs: 12px;
+    /* Paddings */
+    --padding-sm: 14px;
+    --padding-base: 16px;
+    /* Border radiuses */
+    --br-xs: 4px;
+}
