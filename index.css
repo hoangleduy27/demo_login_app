@@ -23,18 +23,29 @@ body {
     min-height: 100vh;
     background-color: #333333;
     color: #000000;
+    background-image: url("public/image/woowa_logo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    /* Đưa ảnh lên góc trái */
+    background-size: contain;
 }
 
 .login-inner {
     border-radius: 20px;
     border: none;
-    /* background: rgba(252, 252, 252, 0.9); */
     background: linear-gradient(to bottom, #f0f0f0, #d1e0ee);
-    /* Màu nền gradient */
+    background-size: cover;
     box-shadow: -8px 4px 5px rgba(0, 0, 0, 0.24);
     backdrop-filter: blur(53px);
     width: 480px;
     padding: 40px;
+    margin-left: 500px;
+    /* Đẩy form sang bên phải */
+    /* Thêm thuộc tính position */
+}
+
+.login-inner:hover {
+    opacity: 1;
 }
 
 .login-text {
@@ -184,10 +195,11 @@ input[type="checkbox"] {
 }
 
 .logo img {
-    width: 100px;
-    height: auto;
+    display: inline-block;
+    width: 250px;
+    height: 150px;
     border-radius: 50%;
-    border: 1px solid #8a8787;
+    border: none;
     box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
