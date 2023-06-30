@@ -44,10 +44,6 @@ body {
     /* Thêm thuộc tính position */
 }
 
-.login-inner:hover {
-    opacity: 1;
-}
-
 .login-text {
     text-align: center;
     margin-bottom: 20px;
@@ -187,20 +183,6 @@ input[type="checkbox"] {
 .terms-conditions {
     color: #888787;
     text-decoration: underline;
-}
-
-.logo {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.logo img {
-    display: inline-block;
-    width: 250px;
-    height: 150px;
-    border-radius: 50%;
-    border: none;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
 }
 
 .glad-youre-back {
